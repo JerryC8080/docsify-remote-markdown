@@ -1,6 +1,6 @@
 {
   "name": "docsify-remote-markdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "remote markdown plugin of docsify",
   "main": "src",
   "scripts": {
