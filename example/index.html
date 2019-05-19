@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Docsify-Remote-Markdown Example</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+  </body>
+
+  <!-- docsify -->
+  <script>
+  window.$docsify = {
+    remoteMarkdown: {
+      tag: 'remoteMarkdownUrl',
+    },
+  }
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+
+  <!-- plugins -->
+  <!-- <script src="//unpkg.com/docsify-remote-markdown/dist/docsify-remote-markdown.min.js"></script> -->
+  <script src="./docsify-remote-markdown.js"></script>
+</html>

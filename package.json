@@ -1,0 +1,35 @@
+{
+  "name": "docsify-remote-markdown",
+  "version": "1.0.0",
+  "description": "remote markdown plugin of docsify",
+  "main": "src",
+  "scripts": {
+    "build": "npm run build:dev && npm run build:prod",
+    "build:dev": "webpack src/index.js -o dist/docsify-remote-markdown.js --mode=development",
+    "build:prod": "webpack src/index.js -o dist/docsify-remote-markdown.min.js --mode=production",
+    "build:example": "webpack src/index.js -o example/docsify-remote-markdown.js --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jerryc8080/docsify-remote-markdown.git"
+  },
+  "keywords": [
+    "docsify",
+    "remote markdown"
+  ],
+  "files": [
+    "src",
+    "dist",
+    "README.md"
+  ],
+  "author": "JerryC Huang(huangjerryc@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jerryc8080/docsify-remote-markdown/issues"
+  },
+  "homepage": "https://github.com/jerryc8080/docsify-remote-markdown#readme",
+  "devDependencies": {
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
