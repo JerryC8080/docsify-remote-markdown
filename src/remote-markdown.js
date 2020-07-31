@@ -19,10 +19,6 @@ export function install(hook, vm) {
   );
 
   hook.beforeEach(function (content, next) {
-    //const reg = new RegExp(
-      //`(?<=\\[${config.tag}\\]\\()(http|https://.+)(?=\\))`,
-      //"g"
-    //);
     const markdownTagsRegex = new RegExp(
       `\\[${config.tag}\\]\\((http|https://.+)\\)`,
       "g"
