@@ -5,7 +5,7 @@
   "main": "src",
   "scripts": {
     "build": "npm run build:dev && npm run build:prod",
-    "build:dev": "webpack src/index.js -o dist/docsify-remote-markdown.js --mode=development",
+    "build:dev": "webpack src/index.js -o example/docsify-remote-markdown.js --mode=development",
     "build:prod": "webpack src/index.js -o dist/docsify-remote-markdown.min.js --mode=production",
     "build:example": "webpack src/index.js -o example/docsify-remote-markdown.js --mode=development"
   },
